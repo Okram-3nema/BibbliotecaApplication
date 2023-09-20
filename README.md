@@ -20,10 +20,10 @@ To make a POST request to add a book, you can use an HTTP client like Postman or
 
 ```json
 {
-    "title": "The Lord of the Rings",
-    "publicationYear": 1954,
-    "authorId": 1,
-    "publisherId": 1
+    "titolo": "The Lord of the Rings",
+    "annopubblicazione": 1954,
+    "autoreid": 1,
+    "editoreid": 1
 }
 ```
 
@@ -44,8 +44,8 @@ Make sure to adapt the book details (title, publicationYear, authorId, publisher
 
 ```json
 {
-    "name": "Author Name",
-    "surname": "Author Surname"
+    "nome": "Author Name",
+    "cognome": "Author Surname"
 }
 
 ```
@@ -64,7 +64,7 @@ Send the request to add a new author.
 
 ```json
 {
-    "name": "Editor Name"
+    "nome": "Editor Name"
 }
 ```
 Send the request to add a new editor.
