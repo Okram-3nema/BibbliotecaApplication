@@ -1,9 +1,10 @@
 # BibbliotecaApplication_REST_API
-##HOW TO TEST :
+HOW TO TEST :
+
 Run Program src/main/java/BibbliotecaApplication.java
 Download Postaman for test. 
 
-##Example adding a book
+Example adding a book
 
 To make a POST request to add a book, you can use an HTTP client like Postman or cURL. Here's an example of a POST request to add a book using Postman:
 
