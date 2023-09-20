@@ -22,8 +22,8 @@ To make a POST request to add a book, you can use an HTTP client like Postman or
 {
     "titolo": "The Lord of the Rings",
     "annopubblicazione": 1954,
-    "autoreid": 1,
-    "editoreid": 1
+    "idautore": 1,
+    "ideditore": 1
 }
 ```
 
