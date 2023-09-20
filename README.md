@@ -34,13 +34,13 @@ Make sure to adapt the book details (title, publicationYear, authorId, publisher
 
 **ADD AUTHOR:**
 
-**URL**: http://localhost:8080/api/autori
+**URL**: `http://localhost:8080/api/autori`
 
- **Method**: POST
+ **Method**: `POST`
  
-**Headers** Content-Type: application/json
+**Headers** `Content-Type`: `application/json`
 
-**Body** (raw JSON):
+**Body** (`raw` JSON):
 
 ```json
 {
@@ -54,13 +54,13 @@ Send the request to add a new author.
 
 **ADD EDITOR:**
 
-**URL:** http://localhost:8080/api/editori
+**URL:** `http://localhost:8080/api/editori`
 
-**Method:** POST
+**Method:** `POST`
 
-**Headers:** Content-Type: application/json
+**Headers:** `Content-Type`: `application/json`
 
-**Body** (raw JSON):
+**Body** (`raw` JSON):
 
 ```json
 {
